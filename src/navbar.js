@@ -12,6 +12,5 @@ const createNavbarParent = () => {
 export default function createNavbar(content) {
   const navbarParent = createNavbarParent();
   populateContainer(navbarParent, navbarData);
-  navbarParent.children[1].classList += ' ml-auto'; // Aligns right
   content.appendChild(navbarParent);
 }

@@ -7,7 +7,7 @@
   "menu-link": {
     "element-tag": "a",
     "textContent": "Menu",
-    "classList": "text-slate-50 text-2xl h-min font-bold"
+    "classList": "text-slate-50 text-2xl h-min font-bold ml-auto"
   },
   "contact-link": {
     "element-tag": "a",
