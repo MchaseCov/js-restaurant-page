@@ -1,6 +1,11 @@
 {
-    "h1": {
-      "text": "Welcome Test",
-      "classList": "text-lg"
+    "large-text": {
+      "element-tag": "h1",
+      "textContent": "Welcome to Website",
+      "classList": "text-2xl"
+    },
+    "sub-text":{
+      "element-tag": "h2",
+      "textContent": "yo it works???"
     }
 }

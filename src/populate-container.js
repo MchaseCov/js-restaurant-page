@@ -1,8 +1,13 @@
+const addElement = (parent, element) => {
+  const createdElement = document.createElement(element['element-tag']);
+  Object.entries(element).splice(1).forEach(
+    ([key, value]) => { createdElement[key] = value; },
+  );
+  parent.appendChild(createdElement);
+};
+
 export default function populateContainer(parent, data) {
-  Object.entries(data).forEach(([key, value]) => {
-    const element = document.createElement(key);
-    element.textContent = value.text;
-    element.classList += value.classList;
-    parent.appendChild(element);
+  Object.values(data).forEach((element) => {
+    addElement(parent, element);
   });
 }

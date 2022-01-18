@@ -1,0 +1,17 @@
+{
+  "logo-link": {
+    "element-tag": "a",
+    "textContent": "Brimstone",
+    "classList": "text-slate-50 text-2xl h-min font-bold"
+  },
+  "menu-link": {
+    "element-tag": "a",
+    "textContent": "Menu",
+    "classList": "text-slate-50 text-2xl h-min font-bold"
+  },
+  "contact-link": {
+    "element-tag": "a",
+    "textContent": "Contact Us",
+    "classList": "text-slate-50 text-2xl h-min font-bold"
+  }
+}
