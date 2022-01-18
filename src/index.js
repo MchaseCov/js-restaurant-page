@@ -1,1 +1,3 @@
-import burgers from './images/burgers.jpg';
+import createPage from './page-load';
+
+createPage();
